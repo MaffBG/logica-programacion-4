@@ -1,0 +1,25 @@
+:root {
+    --main-color: #DADDB1;
+    --secundary-color: #C5D3E8;
+    --terciary-color: #8a5415;
+    --brown: #3E3232;
+    --font: "Montserrat", sans-serif;
+}
+
+body {
+    font-family: var(--font);
+    margin: 0;
+    padding: 100px;
+    background-color: var(--main-color);
+    color: var(--brown);
+    text-align: center;
+}
+h1 {
+    color: var(--terciary-color);
+}
+#resultado {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--brown);
+}
